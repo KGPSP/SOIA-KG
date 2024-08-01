@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the data
-data_path = '/mnt/data/6-dane.csv'
+data_path = '6-dane.csv'
 data = pd.read_csv(data_path)
 
 # Sidebar menu
